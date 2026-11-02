@@ -4,7 +4,7 @@
 
 ## 这是什么
 
-这是一个面向 GEO（Generative Engine Optimization，生成式引擎优化）、AEO（Answer Engine Optimization，答案引擎优化）与 AI 搜索研究的**论文合集**：共收录 **106 篇**论文索引，其中 **88 篇**附有 PDF 原文，按 **10 个主题**分门别类存放；另外 18 篇因许可原因，仅收录元数据与原文链接。
+这是一个面向 GEO（Generative Engine Optimization，生成式引擎优化）、AEO（Answer Engine Optimization，答案引擎优化）与 AI 搜索研究的**论文合集**：共收录 **118 篇**论文索引，其中 **96 篇**附有 PDF 原文，按 **10 个主题**分门别类存放；另外 22 篇因许可原因，仅收录元数据与原文链接。
 
 无论你是刚开始关注 GEO 的产品经理、独立开发者、SEO / GEO 从业者，还是做 AI 搜索方向的研究者，都可以在这里按主题找到对应的代表性工作。
 
@@ -34,7 +34,7 @@
 
 - **来源可核**：每篇论文都记录了来源与原始链接，题名、年份、页数、来源集中在 `00_资料说明/论文清单.csv`，一篇一查。
 - **原件不改**：PDF 保持原样，可用 `00_资料说明/checksums.sha256` 校验完整性。
-- **尊重许可**：与来源仓库的处理一致——采用 arXiv 非独占分发许可的论文仅收录元数据与原文链接（共 18 篇），其余 88 篇收录 PDF 原文。
+- **尊重许可**：与来源仓库的处理一致——采用 arXiv 非独占分发许可的论文仅收录元数据与原文链接（共 22 篇），其余 96 篇收录 PDF 原文。
 - **持续更新**：本合集会持续跟踪新发表的 GEO / AEO / AI 搜索论文，按同一套分类增补进来。
 
 ## 来源与许可
@@ -43,7 +43,7 @@
 
 ---
 
-本目录收纳 GEO、AEO、AI Search、生成式搜索引擎优化与引用操纵相关论文资料。源资料来自 `GEO_AI搜索_AEO_论文合集`、2026-06-20 近 30 天新增论文调研，2026-07-21 新增的中文生成式搜索实证论文，以及 2026-10-25、2026-10-30 两次文献更新。当前包含 106 篇论文索引，其中 88 份 PDF 按主题保存在 10 个目录，18 篇通过原始来源阅读。
+本目录收纳 GEO、AEO、AI Search、生成式搜索引擎优化与引用操纵相关论文资料。源资料来自 `GEO_AI搜索_AEO_论文合集`、2026-06-20 近 30 天新增论文调研，2026-07-21 新增的中文生成式搜索实证论文，以及 2026-10-25、2026-10-30、2026-11-02 三次文献更新。当前包含 118 篇论文索引，其中 96 份 PDF 按主题保存在 10 个目录，22 篇通过原始来源阅读。
 
 原仓库在线导航页：[https://yaojingang.github.io/geo-citation-lab/02-geo-aeo-ai-search-papers/](https://yaojingang.github.io/geo-citation-lab/02-geo-aeo-ai-search-papers/)
 
@@ -52,16 +52,16 @@
 | 分类 | 主题 | 论文数 | 仓库 PDF 数 |
 | --- | --- | ---: | ---: |
 | [01_GEO基础框架](./01_GEO基础框架/) | GEO 基础框架 | 6 | 6 |
-| [02_GEO方法优化](./02_GEO方法优化/) | GEO 方法优化 | 14 | 12 |
+| [02_GEO方法优化](./02_GEO方法优化/) | GEO 方法优化 | 15 | 13 |
 | [03_GEO测量评估](./03_GEO测量评估/) | GEO 测量评估 | 21 | 17 |
-| [04_AI搜索实证](./04_AI搜索实证/) | AI 搜索实证 | 11 | 9 |
+| [04_AI搜索实证](./04_AI搜索实证/) | AI 搜索实证 | 19 | 13 |
 | [05_AEO理论整合](./05_AEO理论整合/) | AEO 理论整合 | 6 | 6 |
-| [06_风险操纵](./06_风险操纵/) | 风险、操纵与对抗 | 23 | 19 |
-| [07_垂直多模态](./07_垂直多模态/) | 垂直场景与多模态 | 8 | 5 |
+| [06_风险操纵](./06_风险操纵/) | 风险、操纵与对抗 | 24 | 20 |
+| [07_垂直多模态](./07_垂直多模态/) | 垂直场景与多模态 | 9 | 6 |
 | [08_AI搜索架构与AgenticSearch](./08_AI搜索架构与AgenticSearch/) | AI 搜索架构与 Agentic Search | 7 | 5 |
 | [09_RAG检索优化](./09_RAG检索优化/) | RAG 检索优化 | 4 | 3 |
-| [10_搜索评估治理](./10_搜索评估治理/) | 搜索评估与治理 | 6 | 6 |
-| 合计 | | 106 | 88 |
+| [10_搜索评估治理](./10_搜索评估治理/) | 搜索评估与治理 | 7 | 7 |
+| 合计 | | 118 | 96 |
 
 ## 资料说明
 
@@ -73,6 +73,7 @@
 
 - 2026-10-25 新增收录 16 篇：11 篇在 2026-07-21 后首次提交，5 篇为遗漏补录；本轮检索发现的最新首次提交日期为 2026-10-10。
 - 2026-10-30 新增收录 36 篇：11 篇为 2026-10-10 后首次提交的新论文，25 篇为遗漏补录；其中 23 篇按 Creative Commons 类许可收录 PDF，13 篇为 arXiv 非独占分发许可、仅收录元数据与原站链接。本轮的更新记录与收录来源见 `00_资料说明/2026-10-30_更新记录.md` 与 `00_资料说明/2026-10-30_收录与来源.json`。
+- 2026-11-02 新增收录 12 篇：2 篇为 2026-10-29 首次提交的新论文，10 篇为遗漏补录；其中 8 篇按 Creative Commons 类许可收录 PDF，4 篇为 arXiv 非独占分发许可、仅收录元数据与原站链接。本轮的更新记录与收录来源见 `00_资料说明/2026-11-02_更新记录.md` 与 `00_资料说明/2026-11-02_收录与来源.json`。
 - [本轮更新记录](./00_资料说明/2026-10-25_GEO论文更新记录.md)记录范围、阅读建议和证据边界；[收录与来源](./00_资料说明/2026-10-25_收录与来源.json)记录作者、版本、原始许可、路径和 SHA-256。
 - 本轮 11 份公开 PDF 保留各自的 Creative Commons 许可；5 篇采用 arXiv 非独占分发许可的论文仅发布元数据与原站链接。本地阅读副本放在 `本地阅读_2026-10-25/`，不提交至 GitHub。论文原件保持原样，权利归原作者或出版方。
 
@@ -107,7 +108,7 @@
 | [原站 PDF](https://arxiv.org/pdf/2604.19516v1) | From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning | 2026 | arXiv v1，2026-10-25 收录 |
 | [02_GEO方法优化_Diagnosing_and_Repairing_Citation_Failures_in_Generative_Engine_Optimization.pdf](./02_GEO方法优化/02_GEO方法优化_Diagnosing_and_Repairing_Citation_Failures_in_Generative_Engine_Optimization.pdf) | Diagnosing and Repairing Citation Failures in Generative Engine Optimization | 2026 | arXiv，2026-10-30 收录 |
 | [02_GEO方法优化_Gap_Detection_Mitigating_Homogenization_through_Demand_and_Defensibility.pdf](./02_GEO方法优化/02_GEO方法优化_Gap_Detection_Mitigating_Homogenization_through_Demand_and_Defensibility.pdf) | Gap Detection: Mitigating Homogenization through Demand and Defensibility | 2026 | arXiv，2026-10-30 收录 |
-
+| [02_GEO方法优化_GLOBE_Evolving_Structured_Agentic_Memory_for_E_commerce_Product_Optimization_in_Generative_Search.pdf](./02_GEO方法优化/02_GEO方法优化_GLOBE_Evolving_Structured_Agentic_Memory_for_E_commerce_Product_Optimization_in_Generative_Search.pdf) | GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search | 2026 | arXiv，2026-11-02 收录 |
 ### 03_GEO测量评估 GEO 测量评估
 
 | 文件 | 论文题名 | 年份 | 来源 |
@@ -149,7 +150,14 @@
 | [04_AI搜索实证_The_Discovery_Gap_How_Product_Hunt_Startups_Vanish_in_LLM_Organic_Discovery_Queries.pdf](./04_AI搜索实证/04_AI搜索实证_The_Discovery_Gap_How_Product_Hunt_Startups_Vanish_in_LLM_Organic_Discovery_Queries.pdf) | The Discovery Gap: How Product Hunt Startups Vanish in LLM Organic Discovery Queries | 2026 | arXiv，2026-10-30 收录 |
 | [04_AI搜索实证_How_Generative_AI_Disrupts_Search_An_Empirical_Study_of_Google_Search_Gemini_and_AI_Overviews.pdf](./04_AI搜索实证/04_AI搜索实证_How_Generative_AI_Disrupts_Search_An_Empirical_Study_of_Google_Search_Gemini_and_AI_Overviews.pdf) | How Generative AI Disrupts Search: An Empirical Study of Google Search, Gemini, and AI Overviews | 2026 | arXiv，2026-10-30 收录 |
 | [原站 PDF](https://arxiv.org/pdf/2610.15382) | Understanding ChatGPT Citations: Evidence from Production Web Search Across Model Generations | 2026 | arXiv，2026-10-30 收录 |
-
+| [04_AI搜索实证_Human_Trust_in_AI_Search_A_Large_Scale_Experiment.pdf](./04_AI搜索实证/04_AI搜索实证_Human_Trust_in_AI_Search_A_Large_Scale_Experiment.pdf) | Human Trust in AI Search: A Large-Scale Experiment | 2025 | arXiv，2026-11-02 收录 |
+| [原站 PDF](https://arxiv.org/pdf/2512.09483) | Source Coverage and Citation Bias in LLM-based vs. Traditional Search Engines | 2025 | arXiv，2026-11-02 收录 |
+| [04_AI搜索实证_Whose_Facts_Win_LLM_Source_Preferences_under_Knowledge_Conflicts.pdf](./04_AI搜索实证/04_AI搜索实证_Whose_Facts_Win_LLM_Source_Preferences_under_Knowledge_Conflicts.pdf) | Whose Facts Win? LLM Source Preferences under Knowledge Conflicts | 2026 | arXiv，2026-11-02 收录 |
+| [原站 PDF](https://arxiv.org/pdf/2602.18455) | Impact of AI Search Summaries on Website Traffic: Evidence from Google AI Overviews and Wikipedia | 2026 | arXiv，2026-11-02 收录 |
+| [原站 PDF](https://arxiv.org/pdf/2605.14021) | Measuring Google AI Overviews: Activation, Source Quality, Claim Fidelity, and Publisher Impact | 2026 | arXiv，2026-11-02 收录 |
+| [04_AI搜索实证_Investigating_Click_Behaviors_On_Google_Search_Result_Pages_That_Produce_an_AI_Overview.pdf](./04_AI搜索实证/04_AI搜索实证_Investigating_Click_Behaviors_On_Google_Search_Result_Pages_That_Produce_an_AI_Overview.pdf) | Investigating Click Behaviors On Google Search Result Pages That Produce an AI Overview | 2026 | arXiv，2026-11-02 收录 |
+| [04_AI搜索实证_AI_in_Search_Reduces_Publisher_Referrals_Without_Improving_User_Experience_Experimental_Evidence.pdf](./04_AI搜索实证/04_AI搜索实证_AI_in_Search_Reduces_Publisher_Referrals_Without_Improving_User_Experience_Experimental_Evidence.pdf) | AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence | 2026 | arXiv，2026-11-02 收录 |
+| [原站 PDF](https://arxiv.org/pdf/2609.38946) | Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption | 2026 | arXiv，2026-11-02 收录 |
 ### 05_AEO理论整合 AEO 理论整合
 
 | 文件 | 论文题名 | 年份 | 来源 |
@@ -188,7 +196,7 @@
 | [06_风险操纵_From_Public_Posts_to_AI_Search_Citations_Measuring_the_Fragility_of_AI_Search.pdf](./06_风险操纵/06_风险操纵_From_Public_Posts_to_AI_Search_Citations_Measuring_the_Fragility_of_AI_Search.pdf) | From Public Posts to AI-Search Citations: Measuring the Fragility of AI Search | 2026 | arXiv，2026-10-30 收录 |
 | [06_风险操纵_A_Cues_Hidden_Price_Auditing_Seller_Influence_on_AI_Shoppers.pdf](./06_风险操纵/06_风险操纵_A_Cues_Hidden_Price_Auditing_Seller_Influence_on_AI_Shoppers.pdf) | A Cue's Hidden Price: Auditing Seller Influence on AI Shoppers | 2026 | arXiv，2026-10-30 收录 |
 | [06_风险操纵_Toolflation_Seller_Agents_Distort_Tool_Markets_Through_Spontaneous_Generative_Engine_Optimization.pdf](./06_风险操纵/06_风险操纵_Toolflation_Seller_Agents_Distort_Tool_Markets_Through_Spontaneous_Generative_Engine_Optimization.pdf) | Toolflation: Seller Agents Distort Tool Markets Through Spontaneous Generative Engine Optimization | 2026 | arXiv，2026-10-30 收录 |
-
+| [06_风险操纵_Data_Void_Exploits_in_Web_Searching_LLMs.pdf](./06_风险操纵/06_风险操纵_Data_Void_Exploits_in_Web_Searching_LLMs.pdf) | Data-Void Exploits in Web-Searching LLMs | 2026 | arXiv，2026-11-02 收录 |
 ### 07_垂直多模态 垂直场景与多模态
 
 | 文件 | 论文题名 | 年份 | 来源 |
@@ -201,7 +209,7 @@
 | [原站 PDF](https://arxiv.org/pdf/2603.12282) | Algorithmic Trust and Compliance: Benchmarking Brand Notability for UK iGaming Entities in Generative Search Engines | 2026 | arXiv，2026-10-30 收录 |
 | [原站 PDF](https://arxiv.org/pdf/2606.16344) | Whose hotel does the AI recommend? An algorithm audit of reputation signals in LLM-assisted hotel selection | 2026 | arXiv，2026-10-30 收录 |
 | [原站 PDF](https://arxiv.org/pdf/2607.12056) | Designing Agent-Ready Websites for AI Web Agents: A Framework for Machine Readability, Actionability, and Decision Reliability | 2026 | arXiv，2026-10-30 收录 |
-
+| [07_垂直多模态_Does_the_Citation_Matter_Quality_Grounding_and_Physician_Rubric_Accuracy_of_Googles_AI_Overviews_for_Medical_Information.pdf](./07_垂直多模态/07_垂直多模态_Does_the_Citation_Matter_Quality_Grounding_and_Physician_Rubric_Accuracy_of_Googles_AI_Overviews_for_Medical_Information.pdf) | Does the Citation Matter? Quality, Grounding, and Physician-Rubric Accuracy of Google's AI Overviews for Medical Information | 2026 | arXiv，2026-11-02 收录 |
 ### 08_AI搜索架构与AgenticSearch AI 搜索架构与 Agentic Search
 
 | 文件 | 论文题名 | 年份 | 来源 |
@@ -233,3 +241,4 @@
 | [10_搜索评估治理_GEO_Risks_Concentration_Disclosure.pdf](./10_搜索评估治理/10_搜索评估治理_GEO_Risks_Concentration_Disclosure.pdf) | Position: Generative Engine Optimization Creates Underexamined Risks, Governance Must Target Concentration, Disclosure, and Academic Blind Spots | 2026 | arXiv v1，2026-10-25 收录 |
 | [10_搜索评估治理_Mechanism_Design_for_Generative_Engines_From_Exploitation_toward_Win_Win_Outcomes.pdf](./10_搜索评估治理/10_搜索评估治理_Mechanism_Design_for_Generative_Engines_From_Exploitation_toward_Win_Win_Outcomes.pdf) | Mechanism Design for Generative Engines: From Exploitation toward Win-Win Outcomes | 2026 | arXiv，2026-10-30 收录 |
 | [10_搜索评估治理_CHASE_How_Content_Ecosystems_Are_Reshaped_When_Ranking_Is_the_Only_Target.pdf](./10_搜索评估治理/10_搜索评估治理_CHASE_How_Content_Ecosystems_Are_Reshaped_When_Ranking_Is_the_Only_Target.pdf) | CHASE: How Content Ecosystems Are Reshaped When Ranking Is the Only Target | 2026 | arXiv，2026-10-30 收录 |
+| [10_搜索评估治理_Who_Owns_Digital_News_and_Who_Gets_Cited_Measuring_Media_Concentration_Across_77_Countries_and_Seven_AI_Systems.pdf](./10_搜索评估治理/10_搜索评估治理_Who_Owns_Digital_News_and_Who_Gets_Cited_Measuring_Media_Concentration_Across_77_Countries_and_Seven_AI_Systems.pdf) | Who Owns Digital News, and Who Gets Cited: Measuring Media Concentration Across 77 Countries and Seven AI Systems | 2026 | arXiv，2026-11-02 收录 |
