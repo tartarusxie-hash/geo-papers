@@ -4,7 +4,7 @@
 
 ## 这是什么
 
-这是一个面向 GEO（Generative Engine Optimization，生成式引擎优化）、AEO（Answer Engine Optimization，答案引擎优化）与 AI 搜索研究的**论文合集**：共收录 **118 篇**论文索引，其中 **96 篇**附有 PDF 原文，按 **10 个主题**分门别类存放；另外 22 篇因许可原因，仅收录元数据与原文链接。
+这是一个面向 GEO（Generative Engine Optimization，生成式引擎优化）、AEO（Answer Engine Optimization，答案引擎优化）与 AI 搜索研究的**论文合集**：共收录 **124 篇**论文索引，其中 **99 篇**附有 PDF 原文，按 **10 个主题**分门别类存放；另外 25 篇因许可原因，仅收录元数据与原文链接。
 
 无论你是刚开始关注 GEO 的产品经理、独立开发者、SEO / GEO 从业者，还是做 AI 搜索方向的研究者，都可以在这里按主题找到对应的代表性工作。
 
@@ -34,7 +34,7 @@
 
 - **来源可核**：每篇论文都记录了来源与原始链接，题名、年份、页数、来源集中在 `00_资料说明/论文清单.csv`，一篇一查。
 - **原件不改**：PDF 保持原样，可用 `00_资料说明/checksums.sha256` 校验完整性。
-- **尊重许可**：与来源仓库的处理一致——采用 arXiv 非独占分发许可的论文仅收录元数据与原文链接（共 22 篇），其余 96 篇收录 PDF 原文。
+- **尊重许可**：与来源仓库的处理一致——采用 arXiv 非独占分发许可的论文仅收录元数据与原文链接（共 25 篇），其余 99 篇收录 PDF 原文。
 - **持续更新**：本合集会持续跟踪新发表的 GEO / AEO / AI 搜索论文，按同一套分类增补进来。
 
 ## 来源与许可
@@ -43,7 +43,7 @@
 
 ---
 
-本目录收纳 GEO、AEO、AI Search、生成式搜索引擎优化与引用操纵相关论文资料。源资料来自 `GEO_AI搜索_AEO_论文合集`、2026-06-20 近 30 天新增论文调研，2026-07-21 新增的中文生成式搜索实证论文，以及 2026-10-25、2026-10-30、2026-11-02 三次文献更新。当前包含 118 篇论文索引，其中 96 份 PDF 按主题保存在 10 个目录，22 篇通过原始来源阅读。
+本目录收纳 GEO、AEO、AI Search、生成式搜索引擎优化与引用操纵相关论文资料。源资料来自 `GEO_AI搜索_AEO_论文合集`、2026-06-20 近 30 天新增论文调研，2026-07-21 新增的中文生成式搜索实证论文，以及 2026-10-25、2026-10-30、2026-11-02 三次文献更新。当前包含 124 篇论文索引，其中 99 份 PDF 按主题保存在 10 个目录，25 篇通过原始来源阅读。
 
 原仓库在线导航页：[https://yaojingang.github.io/geo-citation-lab/02-geo-aeo-ai-search-papers/](https://yaojingang.github.io/geo-citation-lab/02-geo-aeo-ai-search-papers/)
 
@@ -52,16 +52,16 @@
 | 分类 | 主题 | 论文数 | 仓库 PDF 数 |
 | --- | --- | ---: | ---: |
 | [01_GEO基础框架](./01_GEO基础框架/) | GEO 基础框架 | 6 | 6 |
-| [02_GEO方法优化](./02_GEO方法优化/) | GEO 方法优化 | 15 | 13 |
-| [03_GEO测量评估](./03_GEO测量评估/) | GEO 测量评估 | 21 | 17 |
-| [04_AI搜索实证](./04_AI搜索实证/) | AI 搜索实证 | 19 | 13 |
+| [02_GEO方法优化](./02_GEO方法优化/) | GEO 方法优化 | 16 | 14 |
+| [03_GEO测量评估](./03_GEO测量评估/) | GEO 测量评估 | 24 | 17 |
+| [04_AI搜索实证](./04_AI搜索实证/) | AI 搜索实证 | 20 | 14 |
 | [05_AEO理论整合](./05_AEO理论整合/) | AEO 理论整合 | 6 | 6 |
-| [06_风险操纵](./06_风险操纵/) | 风险、操纵与对抗 | 24 | 20 |
+| [06_风险操纵](./06_风险操纵/) | 风险、操纵与对抗 | 25 | 21 |
 | [07_垂直多模态](./07_垂直多模态/) | 垂直场景与多模态 | 9 | 6 |
 | [08_AI搜索架构与AgenticSearch](./08_AI搜索架构与AgenticSearch/) | AI 搜索架构与 Agentic Search | 7 | 5 |
 | [09_RAG检索优化](./09_RAG检索优化/) | RAG 检索优化 | 4 | 3 |
 | [10_搜索评估治理](./10_搜索评估治理/) | 搜索评估与治理 | 7 | 7 |
-| 合计 | | 118 | 96 |
+| 合计 | | 124 | 99 |
 
 ## 资料说明
 
@@ -74,6 +74,7 @@
 - 2026-10-25 新增收录 16 篇：11 篇在 2026-07-21 后首次提交，5 篇为遗漏补录；本轮检索发现的最新首次提交日期为 2026-10-10。
 - 2026-10-30 新增收录 36 篇：11 篇为 2026-10-10 后首次提交的新论文，25 篇为遗漏补录；其中 23 篇按 Creative Commons 类许可收录 PDF，13 篇为 arXiv 非独占分发许可、仅收录元数据与原站链接。本轮的更新记录与收录来源见 `00_资料说明/2026-10-30_更新记录.md` 与 `00_资料说明/2026-10-30_收录与来源.json`。
 - 2026-11-02 新增收录 12 篇：2 篇为 2026-10-29 首次提交的新论文，10 篇为遗漏补录；其中 8 篇按 Creative Commons 类许可收录 PDF，4 篇为 arXiv 非独占分发许可、仅收录元数据与原站链接。本轮的更新记录与收录来源见 `00_资料说明/2026-11-02_更新记录.md` 与 `00_资料说明/2026-11-02_收录与来源.json`。
+- 2026-11-09 新增收录 6 篇：均为 2026-10-31 至 2026-11-05 首次提交的新论文，无补录；其中 3 篇按 Creative Commons 类许可收录 PDF，3 篇为 arXiv 非独占分发许可、仅收录元数据与原站链接。本轮的更新记录与收录来源见 `00_资料说明/2026-11-09_更新记录.md` 与 `00_资料说明/2026-11-09_收录与来源.json`。
 - [本轮更新记录](./00_资料说明/2026-10-25_GEO论文更新记录.md)记录范围、阅读建议和证据边界；[收录与来源](./00_资料说明/2026-10-25_收录与来源.json)记录作者、版本、原始许可、路径和 SHA-256。
 - 本轮 11 份公开 PDF 保留各自的 Creative Commons 许可；5 篇采用 arXiv 非独占分发许可的论文仅发布元数据与原站链接。本地阅读副本放在 `本地阅读_2026-10-25/`，不提交至 GitHub。论文原件保持原样，权利归原作者或出版方。
 
@@ -109,6 +110,7 @@
 | [02_GEO方法优化_Diagnosing_and_Repairing_Citation_Failures_in_Generative_Engine_Optimization.pdf](./02_GEO方法优化/02_GEO方法优化_Diagnosing_and_Repairing_Citation_Failures_in_Generative_Engine_Optimization.pdf) | Diagnosing and Repairing Citation Failures in Generative Engine Optimization | 2026 | arXiv，2026-10-30 收录 |
 | [02_GEO方法优化_Gap_Detection_Mitigating_Homogenization_through_Demand_and_Defensibility.pdf](./02_GEO方法优化/02_GEO方法优化_Gap_Detection_Mitigating_Homogenization_through_Demand_and_Defensibility.pdf) | Gap Detection: Mitigating Homogenization through Demand and Defensibility | 2026 | arXiv，2026-10-30 收录 |
 | [02_GEO方法优化_GLOBE_Evolving_Structured_Agentic_Memory_for_E_commerce_Product_Optimization_in_Generative_Search.pdf](./02_GEO方法优化/02_GEO方法优化_GLOBE_Evolving_Structured_Agentic_Memory_for_E_commerce_Product_Optimization_in_Generative_Search.pdf) | GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search | 2026 | arXiv，2026-11-02 收录 |
+| [02_GEO方法优化_IntentGEO_Intent_aware_Generative_Engine_Optimization_for_Recommendation.pdf](./02_GEO方法优化/02_GEO方法优化_IntentGEO_Intent_aware_Generative_Engine_Optimization_for_Recommendation.pdf) | IntentGEO: Intent-aware Generative Engine Optimization for Recommendation | 2026 | arXiv，2026-11-09 收录 |
 ### 03_GEO测量评估 GEO 测量评估
 
 | 文件 | 论文题名 | 年份 | 来源 |
@@ -134,6 +136,9 @@
 | [03_GEO测量评估_Location_Location_Generation_Where_You_Ask_Matters_for_Generative_Engine_Optimization.pdf](./03_GEO测量评估/03_GEO测量评估_Location_Location_Generation_Where_You_Ask_Matters_for_Generative_Engine_Optimization.pdf) | Location, Location, Generation: Where You Ask Matters for Generative Engine Optimization | 2026 | arXiv，2026-10-30 收录 |
 | [03_GEO测量评估_Humanitys_Last_Choice_A_Common_Evaluation_Standard_for_Generative_Engine_Optimization.pdf](./03_GEO测量评估/03_GEO测量评估_Humanitys_Last_Choice_A_Common_Evaluation_Standard_for_Generative_Engine_Optimization.pdf) | Humanity's Last Choice: A Common Evaluation Standard for Generative Engine Optimization | 2026 | arXiv，2026-10-30 收录 |
 | [原站 PDF](https://arxiv.org/pdf/2610.38090) | Predicting What Answer Engines Cite: Open Decision Models, Rerankers and a Distilled 4B Student on Ten Engines under Controlled Retrieval | 2026 | arXiv，2026-10-30 收录 |
+| [原站 PDF](https://arxiv.org/pdf/2611.01126) | Do GEO Gains Survive the Live Web? Evaluating In-the-Wild Visibility Gains of Generative Engine Optimization via LIVE-GEO | 2026 | arXiv，2026-11-09 收录 |
+| [原站 PDF](https://arxiv.org/pdf/2611.00884) | When 200 OK Is Not an Answer: Silent Fetch Failures in Agentic Web Content Acquisition | 2026 | arXiv，2026-11-09 收录 |
+| [原站 PDF](https://arxiv.org/pdf/2611.01582) | Measuring User Success in Randomized Search Experiments: Interpreting Good Abandonment in Generative AI Search | 2026 | arXiv，2026-11-09 收录 |
 
 ### 04_AI搜索实证 AI 搜索实证
 
@@ -158,6 +163,7 @@
 | [04_AI搜索实证_Investigating_Click_Behaviors_On_Google_Search_Result_Pages_That_Produce_an_AI_Overview.pdf](./04_AI搜索实证/04_AI搜索实证_Investigating_Click_Behaviors_On_Google_Search_Result_Pages_That_Produce_an_AI_Overview.pdf) | Investigating Click Behaviors On Google Search Result Pages That Produce an AI Overview | 2026 | arXiv，2026-11-02 收录 |
 | [04_AI搜索实证_AI_in_Search_Reduces_Publisher_Referrals_Without_Improving_User_Experience_Experimental_Evidence.pdf](./04_AI搜索实证/04_AI搜索实证_AI_in_Search_Reduces_Publisher_Referrals_Without_Improving_User_Experience_Experimental_Evidence.pdf) | AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence | 2026 | arXiv，2026-11-02 收录 |
 | [原站 PDF](https://arxiv.org/pdf/2609.38946) | Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption | 2026 | arXiv，2026-11-02 收录 |
+| [04_AI搜索实证_The_Popular_Get_More_Popular_Auditing_Brand_Bias_in_Generative_Search.pdf](./04_AI搜索实证/04_AI搜索实证_The_Popular_Get_More_Popular_Auditing_Brand_Bias_in_Generative_Search.pdf) | The Popular Get More Popular: Auditing Brand Bias in Generative Search | 2026 | arXiv，2026-11-09 收录 |
 ### 05_AEO理论整合 AEO 理论整合
 
 | 文件 | 论文题名 | 年份 | 来源 |
@@ -197,6 +203,7 @@
 | [06_风险操纵_A_Cues_Hidden_Price_Auditing_Seller_Influence_on_AI_Shoppers.pdf](./06_风险操纵/06_风险操纵_A_Cues_Hidden_Price_Auditing_Seller_Influence_on_AI_Shoppers.pdf) | A Cue's Hidden Price: Auditing Seller Influence on AI Shoppers | 2026 | arXiv，2026-10-30 收录 |
 | [06_风险操纵_Toolflation_Seller_Agents_Distort_Tool_Markets_Through_Spontaneous_Generative_Engine_Optimization.pdf](./06_风险操纵/06_风险操纵_Toolflation_Seller_Agents_Distort_Tool_Markets_Through_Spontaneous_Generative_Engine_Optimization.pdf) | Toolflation: Seller Agents Distort Tool Markets Through Spontaneous Generative Engine Optimization | 2026 | arXiv，2026-10-30 收录 |
 | [06_风险操纵_Data_Void_Exploits_in_Web_Searching_LLMs.pdf](./06_风险操纵/06_风险操纵_Data_Void_Exploits_in_Web_Searching_LLMs.pdf) | Data-Void Exploits in Web-Searching LLMs | 2026 | arXiv，2026-11-02 收录 |
+| [06_风险操纵_Characterizing_Adversarial_GEO_via_Implicit_Brand_Injection.pdf](./06_风险操纵/06_风险操纵_Characterizing_Adversarial_GEO_via_Implicit_Brand_Injection.pdf) | Characterizing Adversarial GEO via Implicit Brand Injection | 2026 | arXiv，2026-11-09 收录 |
 ### 07_垂直多模态 垂直场景与多模态
 
 | 文件 | 论文题名 | 年份 | 来源 |
