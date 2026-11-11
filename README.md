@@ -4,11 +4,11 @@
 
 ## 这是什么
 
-这是一个面向 GEO（Generative Engine Optimization，生成式引擎优化）、AEO（Answer Engine Optimization，答案引擎优化）与 AI 搜索研究的**论文合集**：共收录 **124 篇**论文索引，其中 **99 篇**附有 PDF 原文，按 **10 个主题**分门别类存放；另外 25 篇因许可原因，仅收录元数据与原文链接。
+这是一个面向 GEO（Generative Engine Optimization，生成式引擎优化）、AEO（Answer Engine Optimization，答案引擎优化）与 AI 搜索研究的**论文合集**：共收录 **149 篇**论文索引，其中 **99 篇**附有 PDF 原文，按 **11 个主题**分门别类存放；另外 50 篇因许可原因，仅收录元数据与原文链接。
 
 无论你是刚开始关注 GEO 的产品经理、独立开发者、SEO / GEO 从业者，还是做 AI 搜索方向的研究者，都可以在这里按主题找到对应的代表性工作。
 
-## 十个主题
+## 十一个主题
 
 1. **GEO 基础框架**——GEO 的概念起源、定义与综述，从奠基论文开始读。
 2. **GEO 方法优化**——让内容更容易被生成式引擎选中、引用的具体方法。
@@ -20,6 +20,7 @@
 8. **AI 搜索架构与 Agentic Search**——搜索系统本身的架构，与智能体化搜索。
 9. **RAG 检索优化**——检索增强生成中的检索方法改进。
 10. **搜索评估治理**——评估方法、风险审计与治理框架。
+11. **SEO 基础与搜索原理**——经典搜索引擎的架构、抓取与索引、排序模型与用户行为奠基论文，是 GEO 的地基。
 
 每个主题的完整论文目录见下方「论文目录」，也可以直接打开对应的文件夹浏览。
 
@@ -34,7 +35,7 @@
 
 - **来源可核**：每篇论文都记录了来源与原始链接，题名、年份、页数、来源集中在 `00_资料说明/论文清单.csv`，一篇一查。
 - **原件不改**：PDF 保持原样，可用 `00_资料说明/checksums.sha256` 校验完整性。
-- **尊重许可**：与来源仓库的处理一致——采用 arXiv 非独占分发许可的论文仅收录元数据与原文链接（共 25 篇），其余 99 篇收录 PDF 原文。
+- **尊重许可**：与来源仓库的处理一致——因许可原因仅收录元数据与原文链接的论文共 50 篇（arXiv 非独占分发许可论文，以及出版社版权的 SEO／搜索科学经典），其余 99 篇收录 PDF 原文。
 - **持续更新**：本合集会持续跟踪新发表的 GEO / AEO / AI 搜索论文，按同一套分类增补进来。
 
 ## 来源与许可
@@ -43,7 +44,7 @@
 
 ---
 
-本目录收纳 GEO、AEO、AI Search、生成式搜索引擎优化与引用操纵相关论文资料。源资料来自 `GEO_AI搜索_AEO_论文合集`、2026-06-20 近 30 天新增论文调研，2026-07-21 新增的中文生成式搜索实证论文，以及 2026-10-25、2026-10-30、2026-11-02 三次文献更新。当前包含 124 篇论文索引，其中 99 份 PDF 按主题保存在 10 个目录，25 篇通过原始来源阅读。
+本目录收纳 GEO、AEO、AI Search、生成式搜索引擎优化与引用操纵相关论文资料。源资料来自 `GEO_AI搜索_AEO_论文合集`、2026-06-20 近 30 天新增论文调研，2026-07-21 新增的中文生成式搜索实证论文，以及 2026-10-25、2026-10-30、2026-11-02 三次文献更新。当前包含 149 篇论文索引，其中 99 份 PDF 按主题保存在 11 个目录，50 篇通过原始来源阅读。
 
 原仓库在线导航页：[https://yaojingang.github.io/geo-citation-lab/02-geo-aeo-ai-search-papers/](https://yaojingang.github.io/geo-citation-lab/02-geo-aeo-ai-search-papers/)
 
@@ -61,7 +62,8 @@
 | [08_AI搜索架构与AgenticSearch](./08_AI搜索架构与AgenticSearch/) | AI 搜索架构与 Agentic Search | 7 | 5 |
 | [09_RAG检索优化](./09_RAG检索优化/) | RAG 检索优化 | 4 | 3 |
 | [10_搜索评估治理](./10_搜索评估治理/) | 搜索评估与治理 | 7 | 7 |
-| 合计 | | 124 | 99 |
+| [11_SEO基础与搜索原理](./11_SEO基础与搜索原理/) | SEO 基础与搜索原理 | 25 | 0 |
+| 合计 | | 149 | 99 |
 
 ## 资料说明
 
@@ -75,6 +77,7 @@
 - 2026-10-30 新增收录 36 篇：11 篇为 2026-10-10 后首次提交的新论文，25 篇为遗漏补录；其中 23 篇按 Creative Commons 类许可收录 PDF，13 篇为 arXiv 非独占分发许可、仅收录元数据与原站链接。本轮的更新记录与收录来源见 `00_资料说明/2026-10-30_更新记录.md` 与 `00_资料说明/2026-10-30_收录与来源.json`。
 - 2026-11-02 新增收录 12 篇：2 篇为 2026-10-29 首次提交的新论文，10 篇为遗漏补录；其中 8 篇按 Creative Commons 类许可收录 PDF，4 篇为 arXiv 非独占分发许可、仅收录元数据与原站链接。本轮的更新记录与收录来源见 `00_资料说明/2026-11-02_更新记录.md` 与 `00_资料说明/2026-11-02_收录与来源.json`。
 - 2026-11-09 新增收录 6 篇：均为 2026-10-31 至 2026-11-05 首次提交的新论文，无补录；其中 3 篇按 Creative Commons 类许可收录 PDF，3 篇为 arXiv 非独占分发许可、仅收录元数据与原站链接。本轮的更新记录与收录来源见 `00_资料说明/2026-11-09_更新记录.md` 与 `00_资料说明/2026-11-09_收录与来源.json`。
+- 2026-11-11 新增收录 25 篇：均为 SEO／搜索科学奠基经典的专题补录，开设新主题 `11_SEO基础与搜索原理`；25 篇因出版社版权、机构技术报告或 arXiv 非独占分发许可，全部仅收录元数据与原站链接（PDF 0 篇）。本轮的更新记录与收录来源见 `00_资料说明/2026-11-11_更新记录.md` 与 `00_资料说明/2026-11-11_收录与来源.json`。
 - [本轮更新记录](./00_资料说明/2026-10-25_GEO论文更新记录.md)记录范围、阅读建议和证据边界；[收录与来源](./00_资料说明/2026-10-25_收录与来源.json)记录作者、版本、原始许可、路径和 SHA-256。
 - 本轮 11 份公开 PDF 保留各自的 Creative Commons 许可；5 篇采用 arXiv 非独占分发许可的论文仅发布元数据与原站链接。本地阅读副本放在 `本地阅读_2026-10-25/`，不提交至 GitHub。论文原件保持原样，权利归原作者或出版方。
 
@@ -249,3 +252,34 @@
 | [10_搜索评估治理_Mechanism_Design_for_Generative_Engines_From_Exploitation_toward_Win_Win_Outcomes.pdf](./10_搜索评估治理/10_搜索评估治理_Mechanism_Design_for_Generative_Engines_From_Exploitation_toward_Win_Win_Outcomes.pdf) | Mechanism Design for Generative Engines: From Exploitation toward Win-Win Outcomes | 2026 | arXiv，2026-10-30 收录 |
 | [10_搜索评估治理_CHASE_How_Content_Ecosystems_Are_Reshaped_When_Ranking_Is_the_Only_Target.pdf](./10_搜索评估治理/10_搜索评估治理_CHASE_How_Content_Ecosystems_Are_Reshaped_When_Ranking_Is_the_Only_Target.pdf) | CHASE: How Content Ecosystems Are Reshaped When Ranking Is the Only Target | 2026 | arXiv，2026-10-30 收录 |
 | [10_搜索评估治理_Who_Owns_Digital_News_and_Who_Gets_Cited_Measuring_Media_Concentration_Across_77_Countries_and_Seven_AI_Systems.pdf](./10_搜索评估治理/10_搜索评估治理_Who_Owns_Digital_News_and_Who_Gets_Cited_Measuring_Media_Concentration_Across_77_Countries_and_Seven_AI_Systems.pdf) | Who Owns Digital News, and Who Gets Cited: Measuring Media Concentration Across 77 Countries and Seven AI Systems | 2026 | arXiv，2026-11-02 收录 |
+
+
+### 11_SEO基础与搜索原理 SEO 基础与搜索原理
+
+| 文件 | 论文题名 | 年份 | 来源 |
+| --- | --- | --- | --- |
+| [原站 PDF](https://www.sciencedirect.com/science/article/pii/S016975529800110X) | The Anatomy of a Large-Scale Hypertextual Web Search Engine | 1998 | WWW 1998，2026-11-11 收录 |
+| [原站 PDF](http://ilpubs.stanford.edu:8090/422/) | The PageRank Citation Ranking: Bringing Order to the Web | 1999 | Stanford InfoLab 技术报告，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1145/324133.324140) | Authoritative Sources in a Hyperlinked Environment | 1999 | JACM，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1145/792550.792552) | A Taxonomy of Web Search | 2002 | SIGIR Forum，2026-11-11 收录 |
+| [原站 PDF](https://archives.iw3c2.org/www7/programme/fullpapers/1919/com1919.html) | Efficient Crawling Through URL Ordering | 1998 | WWW 1998，2026-11-11 收录 |
+| [原站 PDF](https://marc.najork.org/papers/wwwmerc.pdf) | Mercator: A Scalable, Extensible Web Crawler | 1999 | World Wide Web，2026-11-11 收录 |
+| [原站 PDF](https://ra.ethz.ch/cdstore/www10/papers/208/index.html) | Breadth-First Search Crawling Yields High-Quality Pages | 2001 | WWW 2001，2026-11-11 收录 |
+| [原站 PDF](http://www09.sigmod.org/sigmod/dblp/db/indices/a-tree/b/Bharat:Krishna.html) | A Technique for Measuring the Relative Size and Overlap of Public Web Search Engines | 1998 | WWW 1998，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1145/1132956.1132959) | Inverted Files for Text Search Engines | 2006 | ACM Computing Surveys，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1108/eb026526) | A Statistical Interpretation of Term Specificity and Its Application in Retrieval | 1972 | Journal of Documentation，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1561/1500000019) | The Probabilistic Relevance Framework: BM25 and Beyond | 2009 | Foundations and Trends in IR，2026-11-11 收录 |
+| [原站 PDF](https://www.cs.cornell.edu/~tj/publications/joachims_02c.pdf) | Optimizing Search Engines Using Clickthrough Data | 2002 | KDD 2002，2026-11-11 收录 |
+| [原站 PDF](https://web-wp.archive.org/web/20251003154608/https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf) | From RankNet to LambdaRank to LambdaMART: An Overview | 2010 | Microsoft Research 技术报告，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1145/582415.582418) | Cumulated Gain-Based Evaluation of IR Techniques | 2002 | ACM TOIS，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1145/1076034.1076063) | Accurately Interpreting Clickthrough Data as Implicit Feedback | 2005 | SIGIR 2005，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1145/1341531.1341545) | An Experimental Comparison of Click Position-Bias Models | 2008 | WSDM 2008，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1145/1390334.1390392) | A User Browsing Model to Predict Search Engine Click Data from Past Observations | 2008 | SIGIR 2008，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1145/1526709.1526711) | A Dynamic Bayesian Network Click Model for Web Search Ranking | 2009 | WWW 2009，2026-11-11 收录 |
+| [原站 PDF](http://dbpubs.stanford.edu:8090/pub/showDoc.Fulltext?lang=en&doc=2004-17&format=pdf&compression=%20) | Combating Web Spam with TrustRank | 2004 | VLDB 2004，2026-11-11 收录 |
+| [原站 PDF](http://airweb.cse.lehigh.edu/2005/gyongyi.pdf) | Web Spam Taxonomy | 2005 | AIRWeb 2005，2026-11-11 收录 |
+| [原站 PDF](https://www.microsoft.com/en-us/research/publication/detecting-spam-web-pages-through-content-analysis/) | Detecting Spam Web Pages through Content Analysis | 2006 | WWW 2006，2026-11-11 收录 |
+| [原站 PDF](https://doi.org/10.1145/775152.775250) | Semantic Search | 2003 | WWW 2003，2026-11-11 收录 |
+| [原站 PDF](https://arxiv.org/abs/1901.04085) | Passage Re-ranking with BERT | 2019 | arXiv，2026-11-11 收录 |
+| [原站 PDF](https://arxiv.org/abs/2004.04906) | Dense Passage Retrieval for Open-Domain Question Answering | 2020 | arXiv, EMNLP 2020，2026-11-11 收录 |
+| [原站 PDF](https://arxiv.org/abs/2004.12832) | ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT | 2020 | arXiv, SIGIR 2020，2026-11-11 收录 |
